@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-navigation-drawer v-model="sideNav" app>
+    <v-navigation-drawer v-model="sideNav" app disable-resize-watcher>
       <v-list-item>
         <v-list-item-content>
           <v-list-item-title class="title">Links</v-list-item-title>
